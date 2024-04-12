@@ -8,12 +8,12 @@ const middlewares = jsonServer.defaults();
 const PORT = process.env.PORT || 3006;
 
 server.options("",cors({
-    origin:"*",
+    origin:"https://contact-manager-nine-ruddy.vercel.app",
     credentials:true,
     methods:["GET","POST","PUT","DELELTE"]
 }))
 server.use(cors({
-    origin:"*",
+    origin:"https://contact-manager-nine-ruddy.vercel.app",
     credentials:true,
     methods:["GET","POST","PUT","DELELTE"]
 }))
