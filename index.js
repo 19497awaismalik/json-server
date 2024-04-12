@@ -10,12 +10,12 @@ const PORT = process.env.PORT || 3006;
 server.options("",cors({
     origin:"https://contact-manager-nine-ruddy.vercel.app",
     credentials:true,
-    methods:["GET","POST","PUT","DELELTE"]
+    methods:["GET","POST","PUT","DELETE"]
 }))
 server.use(cors({
     origin:"https://contact-manager-nine-ruddy.vercel.app",
     credentials:true,
-    methods:["GET","POST","PUT","DELELTE"]
+    methods:["GET","POST","PUT","DELETE"]
 }))
 server.use(middlewares);
 server.use(router);
